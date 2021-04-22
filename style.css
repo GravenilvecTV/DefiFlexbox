@@ -1,0 +1,40 @@
+* {
+  padding: 0 auto;
+  margin: 0 auto;
+  font-family: 'Arial';
+}
+
+header {
+  background-color: rgb(187, 157, 75);
+}
+
+header h3 {
+  color: #fff;
+  padding: 5px;
+}
+
+section.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+section.container .item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 1px 1px 12px rgb(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+section.container img, p, h2 {
+  padding: 5px;
+}
+
+section.container p.price {
+  font-size: 20px;
+}
